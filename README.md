@@ -12,3 +12,8 @@ pip3 install -r requirements.txt
 pip3 install -r requirements_dev.txt
 tox
 ```
+
+# run
+```
+python3 src/coparecommits/maine.py
+```
