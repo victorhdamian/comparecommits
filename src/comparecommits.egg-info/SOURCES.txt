@@ -1,0 +1,13 @@
+pyproject.toml
+setup.cfg
+setup.py
+src/comparecommits/__init__.py
+src/comparecommits/git_interface.py
+src/comparecommits/main.py
+src/comparecommits.egg-info/PKG-INFO
+src/comparecommits.egg-info/SOURCES.txt
+src/comparecommits.egg-info/dependency_links.txt
+src/comparecommits.egg-info/not-zip-safe
+src/comparecommits.egg-info/requires.txt
+src/comparecommits.egg-info/top_level.txt
+tests/test_git_interface.py
