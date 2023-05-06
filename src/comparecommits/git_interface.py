@@ -18,7 +18,7 @@ def get_commits(org, repo):
         raise
 
 # https://docs.github.com/en/rest/commits/commits?apiVersion=2022-11-28#compare-two-commits
-def compare_commits(org, repo, head, base):
+def compare_commits(org, repo, base, head):
     try:
         url = "https://api.github.com/repos/" + org + "/" + repo + "/compare/" + base + "..." + head
         headers = CaseInsensitiveDict()
